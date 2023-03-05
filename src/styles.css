@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+*{
+  font-family: 'Orbitron', sans-serif;
+}
+.Container {
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.Navbar-Container {
+  width: 100%;
+  background-color: #333;
+  /* border-bottom-left-radius: 10px; */
+  /* border-bottom-right-radius: 10px; */
+  justify-content: flex-start;
+  /* padding: 3rem; */
+  padding: 15px 3rem;
+  gap: 50rem;
+  /* margin-bottom: 150px; */
+}
+.Logo{
+  color: #fff;
+  font-size: 2rem;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Logo:hover{
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Navbar-Link {
+  margin-right: 100px;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+}
+.Navbar-Link:last-child {
+  margin-right: 0;
+}
+.Home-Container,
+.Mint-Container,
+.Stake-Container {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1a202c;
+  /* flex-direction: column; */
+  display: flexbox;
+  align-content: center;
+  gap: 10rem;
+  height: 43rem;
+}
+.heading {
+  font-size: 10rem;
+  display: flex;
+  /* margin-left: 1rem; */
+  flex-direction: column;
+}
+.sheading{
+  font-size: 3rem;
+}
+.Home-ConnectWallet {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  font-size: 20px;
+  border: solid #1a202c;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+  /* margin-top: 50px; */
+
+  align-items: center;
+  justify-content: center;
+}
+.Home-ConnectWallet:hover {
+  border: solid white;
+  background-color: #1a202c;
+  color: #fff;
+}
+.About-Container{
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #ddf;
+}
+.About-Container h1{
+  font-size: 4rem;
+}
+.About-Container p{
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+.Mint-Button {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.Mint-Input {
+  align-items: center;
+}
+.Mint-Label {
+  font-size: 20px;
+  color: white;
+}
+
+.Mint-Balance {
+  font-size: 32px;
+  color: white;
+}
+.Stake-Form {
+  flex-direction: column;
+}
+.Stake-Field {
+  flex-direction: column;
+  margin-top: 30px;
+}
+.Stake-Label {
+  color: white;
+  font-size: 20px;
+}
+.Stake-CreatedHeading {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.Stake-Info {
+  flex-direction: column;
+}
+.Stake-InfoLabel {
+  color: white;
+  font-size: 18px;
+}
+.Stake-InfoValue {
+  color: white;
+}
+.Stake-TimeLeft {
+  color: white;
+}
+.Stake-Reward {
+  color: white;
+}
+.Footer-Container {
+  width: 100%;
+  background-color: #333;
+  /* border-bottom-left-radius: 10px; */
+  /* border-bottom-right-radius: 10px; */
+  justify-content: flex-start;
+  /* padding: 3rem; */
+  padding: 1rem 3rem;
+  gap: 50rem;
+  /* margin-bottom: 150px; */
+}
+.Footer-Link {
+  margin-right: 100px;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  font-size: 1rem;
+  align-items: flex-end;
+}
+.Footer-Link:last-child {
+  margin-right: 0;
+}
+.BT{
+  font-size: 2.5rem;
+  align-self: flex-end;
+  height: 50px;
+}
+.BT:last-of-type{
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Navbar-Link {
+    margin-right: 50px;
+  }
+}
