@@ -92,7 +92,7 @@ export default function Mint() {
   const mintTokenButton = () => {
     return (
       <Flex onClick={mintTokenHandler} className="Mint-Button">
-        Mint CUST Token
+        Mint DJ Token
       </Flex>
     );
   };
@@ -110,7 +110,7 @@ export default function Mint() {
       <Navbar />
       <Flex className="Mint-Container">
         <Flex className="Mint-Balance">
-          Your CUST Token balance : &nbsp; <b>{accountBalance}</b> &nbsp; CUST
+          Your DJ Token balance : &nbsp; <b>{accountBalance}</b> &nbsp; DJ
         </Flex>
         {loading ? (
           <Spinner color="white" mt="50px" />

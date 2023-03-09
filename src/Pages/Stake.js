@@ -251,7 +251,7 @@ export default function Stake() {
       <Navbar />
       <Flex className="Stake-Container">
         <Flex className="Mint-Balance">
-          Your CUST Token balance : &nbsp; <b>{accountBalance}</b> &nbsp; CUST
+          Your DJ Token balance : &nbsp; <b>{accountBalance}</b> &nbsp; DJ
         </Flex>
         {checkStakeLoading ? (
           <Spinner color="white" />

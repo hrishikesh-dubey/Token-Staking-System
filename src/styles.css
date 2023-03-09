@@ -25,8 +25,10 @@
   align-content: flex-start;
   justify-content: flex-start;
   align-items: flex-start;
+  /* transition: 0.2s; */
 }
 .Logo:hover{
+  /* font-size: 2.5rem; */
   background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -38,13 +40,17 @@
   color: white;
   font-size: 18px;
   align-items: center;
+  transition: 0.2s;
+}
+.Navbar-Link:hover{
+  font-size: 24px;
+  color: #aaf;
 }
 .Navbar-Link:last-child {
   margin-right: 0;
 }
 .Home-Container,
-.Mint-Container,
-.Stake-Container {
+.Mint-Container {
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -54,6 +60,18 @@
   display: flexbox;
   align-content: center;
   gap: 10rem;
+  height: 43rem;
+}
+
+.Stake-Container {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1a202c;
+  flex-direction: column;
+  display: flexbox;
+  align-content: center;
   height: 43rem;
 }
 .heading {
@@ -78,6 +96,7 @@
 
   align-items: center;
   justify-content: center;
+  transition: 0.2s;
 }
 .Home-ConnectWallet:hover {
   border: solid white;
@@ -187,4 +206,20 @@
   .Navbar-Link {
     margin-right: 50px;
   }
+}
+
+
+html::-webkit-scrollbar {
+  background-color: #000;
+  width: 5px;
+  /* border-radius: 10px; */
+}
+
+html::-webkit-scrollbar-track {
+  /* border-radius: 10px; */
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #a520ca), color-stop(1, #2681cc));
 }
